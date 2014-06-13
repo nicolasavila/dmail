@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Problema</title>
+<script language="javascript" src="funciones.js" type="text/javascript"></script>
+<link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    <div id="cabecera">
+      <h1 id="tituloprincipal">D-Mail</h1>
+      <!--<label id="fechayhora"></label>-->
+    </div>
+    <div id="menuIzquierdo">
+      <p> Menu </p>
+      <input type="button" value="Nuevo" id="botonnuevo"><br>
+      <input type="button" value="Bandeja Entrada" id="botonentrada"><br>
+      <input type="button" value="Enviados" id="botonenviados"><br>
+    </div>
+    <div id="contenedorprincipal">
+    <!--  <div id="">-->
+        <p> Enviar </p><br>
+        <form>
+          <label>Ingrese su nombre:</label>
+      		<input type="text" id="nombre" size="34"><br>
+      		<label>Ingrese email destino:</label>
+      		<input type="text" id="email" size="34"><br>
+      		<label>Ingrese asunto:</label>
+      		<input type="text" id="asunto" size="34"><br>
+      		<textarea id="mensaje" rows="10" cols="50"></textarea><br>
+
+      		<input type="button" value="Enviar" onClick="enviarMail()">
+      		<input type="reset" value="Borrar">
+        </form>
+    </div>
+</body>
+</html>

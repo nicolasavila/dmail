@@ -1,0 +1,42 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+#cabecera
+{
+  color:#fff;
+  background-color:#becdfe;
+  clear:left;
+  width:100%;
+}
+
+#menuIzquierdo
+{
+  background-color:#0000ff;
+  float:left;
+  width:200px;
+  height:450px;
+}
+
+#contenedorprincipal {
+
+  background-color:#00ff00;
+  margin-left:202px;
+  height:450px;
+}
+
+#tituloprincipal {
+  text-align:center;
+}
+
+#contenedorprincipal form textarea {
+  margin:10px;
+}
+
+#contenedorprincipal form label {
+  width:192px; 
+  float:left;
+  font-family:verdana;
+  font-size:14px;
+}
